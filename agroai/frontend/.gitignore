@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite3
+
+# Build
+frontend/dist/
+backend/*.egg-info/
+
+# Docker
+docker-compose.override.yml
+
+# Alembic
+backend/migrations/versions/*.pyc
+
+# ChromaDB local store
+backend/app/rag/chroma_store/
+
+# Coverage
+htmlcov/
+.coverage

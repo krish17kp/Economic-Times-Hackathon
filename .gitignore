@@ -1,38 +1,40 @@
-# Environments
+# Node Modules
+node_modules/
+**/node_modules/
+
+# Python Virtual Environments
+venv/
+**/venv/
+env/
+**/env/
+.env/
+**/.env/
+
+# Python Cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Environment Variables
 .env
+**/.env
 .env.local
+**/.env.local
 .env.development.local
 .env.test.local
 .env.production.local
+secret*.json
 
-# Python/Backend
-venv/
-env/
-__pycache__/
-*.pyc
-.pytest_cache/
-ai-money-mentor/backend/venv/
-ai-money-mentor/backend/__pycache__/
-*.sqlite3
-
-# Node.js/Frontend
-node_modules/
-ai-money-mentor/frontend/node_modules/
+# Frontend builds
 dist/
+**/dist/
 build/
-.npm
-package-lock.json (if using yarn, pnpm) # keep this if using npm
+**/build/
+.next/
+**/.next/
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# IDEs and Editors
+# IDE and OS files
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Hackathon temporary files
-.temp/
-*.log
+.DS_Store
+Thumbs.db

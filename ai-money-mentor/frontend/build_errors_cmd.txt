@@ -1,0 +1,31 @@
+
+> ai-money-mentor-ui@1.0.0 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 25 modules transformed.
+[31mx[39m Build failed in 592ms
+[31merror during build:
+[31m[vite:esbuild] Transform failed with 1 error:
+D:/Krish/economic times hacakthon/ai-money-mentor/frontend/src/components/dashboard/SubScoreGrid.jsx:28:14: ERROR: Expected "}" but found ";"[31m
+file: [36mD:/Krish/economic times hacakthon/ai-money-mentor/frontend/src/components/dashboard/SubScoreGrid.jsx:28:14[31m
+[33m
+[33mExpected "}" but found ";"[33m
+26 |                      />
+27 |                  );
+28 |              });}
+   |                ^
+29 |          </div>
+30 |      );
+[31m
+    at failureErrorWithLog (D:\Krish\economic times hacakthon\ai-money-mentor\frontend\node_modules\esbuild\lib\main.js:1472:15)
+    at D:\Krish\economic times hacakthon\ai-money-mentor\frontend\node_modules\esbuild\lib\main.js:755:50
+    at responseCallbacks.<computed> (D:\Krish\economic times hacakthon\ai-money-mentor\frontend\node_modules\esbuild\lib\main.js:622:9)
+    at handleIncomingPacket (D:\Krish\economic times hacakthon\ai-money-mentor\frontend\node_modules\esbuild\lib\main.js:677:12)
+    at Socket.readFromStdout (D:\Krish\economic times hacakthon\ai-money-mentor\frontend\node_modules\esbuild\lib\main.js:600:7)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)[39m

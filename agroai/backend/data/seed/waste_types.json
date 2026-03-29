@@ -1,0 +1,37 @@
+[
+  {
+    "id": "rice_straw",
+    "label_en": "Rice Straw",
+    "label_hi": "धान का पुआल",
+    "icon": "🌾",
+    "typical_season": "Oct-Nov"
+  },
+  {
+    "id": "wheat_straw",
+    "label_en": "Wheat Straw",
+    "label_hi": "गेहूं का भूसा",
+    "icon": "🌿",
+    "typical_season": "Apr-May"
+  },
+  {
+    "id": "rice_husk",
+    "label_en": "Rice Husk",
+    "label_hi": "चावल की भूसी",
+    "icon": "🍚",
+    "typical_season": "Oct-Dec"
+  },
+  {
+    "id": "sugarcane_bagasse",
+    "label_en": "Sugarcane Bagasse",
+    "label_hi": "गन्ने की खोई",
+    "icon": "🎋",
+    "typical_season": "Jan-Mar"
+  },
+  {
+    "id": "cotton_stalk",
+    "label_en": "Cotton Stalk",
+    "label_hi": "कपास का डंठल",
+    "icon": "🌱",
+    "typical_season": "Nov-Dec"
+  }
+]

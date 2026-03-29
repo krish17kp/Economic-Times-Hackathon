@@ -1,0 +1,188 @@
+[
+  {
+    "business_name": "GreenFuel Biomass Plant",
+    "buyer_type": "biomass_plant",
+    "accepted_waste": [
+      "rice_straw",
+      "wheat_straw"
+    ],
+    "price_per_kg": 2.1,
+    "min_quantity_kg": 2000,
+    "max_capacity_kg": 50000,
+    "provides_pickup": true,
+    "pickup_radius_km": 30,
+    "state": "Punjab",
+    "district": "Ludhiana",
+    "pincode": "141001",
+    "latitude": 30.901,
+    "longitude": 75.8573,
+    "phone": "9876000001",
+    "is_verified": true
+  },
+  {
+    "business_name": "Sharma Brick Kiln",
+    "buyer_type": "brick_kiln",
+    "accepted_waste": [
+      "rice_straw",
+      "rice_husk",
+      "cotton_stalk"
+    ],
+    "price_per_kg": 1.8,
+    "min_quantity_kg": 5000,
+    "max_capacity_kg": 100000,
+    "provides_pickup": false,
+    "pickup_radius_km": 0,
+    "state": "Punjab",
+    "district": "Amritsar",
+    "pincode": "143001",
+    "latitude": 31.634,
+    "longitude": 74.8723,
+    "phone": "9876000002",
+    "is_verified": true
+  },
+  {
+    "business_name": "EcoCompost Solutions",
+    "buyer_type": "compost_unit",
+    "accepted_waste": [
+      "rice_straw",
+      "wheat_straw",
+      "sugarcane_bagasse"
+    ],
+    "price_per_kg": 1.5,
+    "min_quantity_kg": 1000,
+    "max_capacity_kg": 20000,
+    "provides_pickup": true,
+    "pickup_radius_km": 20,
+    "state": "Haryana",
+    "district": "Karnal",
+    "pincode": "132001",
+    "latitude": 29.6857,
+    "longitude": 76.9905,
+    "phone": "9876000003",
+    "is_verified": false
+  },
+  {
+    "business_name": "Punjab Paper Mill",
+    "buyer_type": "paper_mill",
+    "accepted_waste": [
+      "rice_straw",
+      "wheat_straw"
+    ],
+    "price_per_kg": 2.5,
+    "min_quantity_kg": 10000,
+    "max_capacity_kg": 500000,
+    "provides_pickup": true,
+    "pickup_radius_km": 50,
+    "state": "Punjab",
+    "district": "Jalandhar",
+    "pincode": "144001",
+    "latitude": 31.326,
+    "longitude": 75.5762,
+    "phone": "9876000004",
+    "is_verified": true
+  },
+  {
+    "business_name": "Agri Briquette Co.",
+    "buyer_type": "biomass_plant",
+    "accepted_waste": [
+      "rice_husk",
+      "sugarcane_bagasse",
+      "cotton_stalk"
+    ],
+    "price_per_kg": 1.9,
+    "min_quantity_kg": 3000,
+    "max_capacity_kg": 30000,
+    "provides_pickup": false,
+    "pickup_radius_km": 0,
+    "state": "UP",
+    "district": "Meerut",
+    "pincode": "250001",
+    "latitude": 28.9845,
+    "longitude": 77.7064,
+    "phone": "9876000005",
+    "is_verified": false
+  },
+  {
+    "business_name": "MahaAgro Biomass Fuel",
+    "buyer_type": "biomass_plant",
+    "accepted_waste": [
+      "rice_straw",
+      "wheat_straw",
+      "sugarcane_bagasse",
+      "cotton_stalk"
+    ],
+    "price_per_kg": 2.3,
+    "min_quantity_kg": 1000,
+    "max_capacity_kg": 60000,
+    "provides_pickup": true,
+    "pickup_radius_km": 150,
+    "state": "Maharashtra",
+    "district": "Pune",
+    "pincode": "411001",
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "phone": "9876000101",
+    "is_verified": true
+  },
+  {
+    "business_name": "Mumbai Green Energy",
+    "buyer_type": "biomass_plant",
+    "accepted_waste": [
+      "rice_husk",
+      "sugarcane_bagasse"
+    ],
+    "price_per_kg": 2.1,
+    "min_quantity_kg": 2000,
+    "max_capacity_kg": 40000,
+    "provides_pickup": true,
+    "pickup_radius_km": 80,
+    "state": "Maharashtra",
+    "district": "Mumbai Suburban",
+    "pincode": "400060",
+    "latitude": 19.1363,
+    "longitude": 72.8631,
+    "phone": "9876000102",
+    "is_verified": true
+  },
+  {
+    "business_name": "Nashik Brick Co.",
+    "buyer_type": "brick_kiln",
+    "accepted_waste": [
+      "rice_straw",
+      "wheat_straw"
+    ],
+    "price_per_kg": 1.6,
+    "min_quantity_kg": 3000,
+    "max_capacity_kg": 80000,
+    "provides_pickup": false,
+    "pickup_radius_km": 0,
+    "state": "Maharashtra",
+    "district": "Nashik",
+    "pincode": "422001",
+    "latitude": 20.011,
+    "longitude": 73.7903,
+    "phone": "9876000103",
+    "is_verified": false
+  },
+  {
+    "business_name": "Thane Paper & Pulp",
+    "buyer_type": "paper_mill",
+    "accepted_waste": [
+      "rice_straw",
+      "wheat_straw",
+      "sugarcane_bagasse"
+    ],
+    "price_per_kg": 2.6,
+    "min_quantity_kg": 5000,
+    "max_capacity_kg": 200000,
+    "provides_pickup": true,
+    "pickup_radius_km": 100,
+    "state": "Maharashtra",
+    "district": "Thane",
+    "pincode": "400601",
+    "latitude": 19.2183,
+    "longitude": 72.9781,
+    "phone": "9876000104",
+    "is_verified": true
+  }
+]

@@ -1,0 +1,21 @@
+from pydantic_settings import BaseSettings
+from functools import lru_cache
+
+class Settings(BaseSettings):
+    PROJECT_NAME: str = "AI Money Mentor"
+    VERSION: str = "1.0.0"
+    API_V1_STR: str = "/api"
+    
+    # LLM Settings
+    LLM_PROVIDER: str = "claude"  # 'claude' or 'openai'
+    ANTHROPIC_API_KEY: str = ""
+    OPENAI_API_KEY: str = ""
+    
+    MAX_UPLOAD_SIZE_MB: int = 10
+    
+    class Config:
+        env_file = ".env"
+
+@lru_cache()
+def get_settings():
+    return Settings()
