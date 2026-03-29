@@ -38,3 +38,7 @@ build/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Ignored sub-projects
+agroai/
+visionary-vestor/
